@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <array xmlName="patient" jsonName="notMapped" xmlDataType="" jsonDataType="">
+        <element xmlName="id" jsonName="patientid" xmlDataType="String" jsonDataType="Integer"/>
+        <element xmlName="gender" jsonName="sex" xmlDataType="genderAbbrev" jsonDataType="genderFull"/>
+        <element xmlName="name" jsonName="name" xmlDataType="String" jsonDataType="String"/>
+        <element xmlName="state" jsonName="state" xmlDataType="stateFull" jsonDataType="stateAbbrev"/>
+        <element xmlName="dateOfBirth" jsonName="age" xmlDataType="birthdayMM/DD/YYYY" jsonDataType="ageCalculation"/>
+    </array>
+</root>

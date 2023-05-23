@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <author>Bryan Fauble</author>
+    <bookTitle>Bryan's great book of food - Part 2 the electric boogalo</bookTitle>
+    <dish>
+        <dishTitle>Chicken Burritos</dishTitle>
+        <dishCreator>The burrito man</dishCreator>
+        <dishCreation>
+            <dishLocationOfCreation>Earth</dishLocationOfCreation>
+            <dishDateOfCreation>19000101</dishDateOfCreation>
+        </dishCreation>
+        <ingredients>
+            <ingredientName>Chicken</ingredientName>
+            <ingredientQuantity>1 Pound</ingredientQuantity>
+            <ingredientComment>Season the meat while cooking or use a marinade before cooking.</ingredientComment>
+        </ingredients>
+        <ingredients>
+            <ingredientName>Beans</ingredientName>
+            <ingredientQuantity>1 Can</ingredientQuantity>
+            <ingredientComment>Try adding a small amount of lime juice.</ingredientComment>
+        </ingredients>
+        <ingredients>
+            <ingredientName>Lettuce</ingredientName>
+            <ingredientQuantity>1 Head</ingredientQuantity>
+            <ingredientComment>Cut up lettuce into small strips.</ingredientComment>
+        </ingredients>
+        <localRestaurantSellingDish>
+            <restaurantName>Panchos</restaurantName>
+            <address>
+                <addressLine1>123 Right Around The Corner</addressLine1>
+                <addressState>MI</addressState>
+            </address>
+        </localRestaurantSellingDish>
+        <localRestaurantSellingDish>
+            <restaurantName>Chipotle</restaurantName>
+            <address>
+                <addressLine1>Across the street from the one that closed</addressLine1>
+                <addressState>MI</addressState>
+            </address>
+        </localRestaurantSellingDish>
+    </dish>
+    <dish>
+        <dishTitle>Spicy Curry</dishTitle>
+        <dishCreator>The Curry man</dishCreator>
+        <dishCreation>
+            <dishLocationOfCreation>Earth</dishLocationOfCreation>
+            <dishDateOfCreation>19000101</dishDateOfCreation>
+        </dishCreation>
+        <ingredients>
+            <ingredientName>Chicken</ingredientName>
+            <ingredientQuantity>1 Pound</ingredientQuantity>
+            <ingredientComment>Cook thoroughly to make sure there is no raw meat.</ingredientComment>
+        </ingredients>
+        <ingredients>
+            <ingredientName>Tomato puree</ingredientName>
+            <ingredientQuantity>1 (32oz) Can</ingredientQuantity>
+        </ingredients>
+        <ingredients>
+            <ingredientName>Yogurt</ingredientName>
+            <ingredientQuantity>1 Cup</ingredientQuantity>
+        </ingredients>
+        <ingredients>
+            <ingredientName>Spices</ingredientName>
+            <ingredientQuantity>1/3 Cup</ingredientQuantity>
+            <ingredientComment>Curry powder, Cumin, Coriander, Cayenne pepper, Garam Masala, Tumeric</ingredientComment>
+        </ingredients>
+        <localRestaurantSellingDish>
+            <restaurantName>Grill of india</restaurantName>
+            <address>
+                <addressLine1>South Lansing</addressLine1>
+                <addressState>MI</addressState>
+            </address>
+        </localRestaurantSellingDish>
+    </dish>
+</root>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <element xmlName="author" jsonName="authorJson" xmlDataType="String" jsonDataType="String"/>
+    <element xmlName="bookTitle" jsonName="bookTitleJson" xmlDataType="String" jsonDataType="String"/>
+    <array xmlName="dish" jsonName="dishJson" xmlDataType="" jsonDataType="">
+        <element xmlName="dishTitle" jsonName="dishTitleJson" xmlDataType="String" jsonDataType="String"/>
+        <element xmlName="dishCreator" jsonName="dishCreatorJson" xmlDataType="String" jsonDataType="String"/>
+        <object xmlName="dishCreation" jsonName="dishCreationJson" xmlDataType="" jsonDataType="">
+            <element xmlName="dishLocationOfCreation" jsonName="dishLocationOfCreationJson" xmlDataType="String" jsonDataType="String"/>
+            <element xmlName="dishDateOfCreation" jsonName="dishDateOfCreationJson" xmlDataType="String" jsonDataType="String"/>
+        </object>
+        <array xmlName="ingredients" jsonName="ingredientsJson" xmlDataType="" jsonDataType="">
+            <element xmlName="ingredientName" jsonName="ingredientNameJson" xmlDataType="String" jsonDataType="String"/>
+            <element xmlName="ingredientQuantity" jsonName="ingredientQuantityJson" xmlDataType="String" jsonDataType="String"/>
+            <element xmlName="ingredientComment" jsonName="ingredientCommentJson" xmlDataType="String" jsonDataType="String"/>
+        </array>
+        <array xmlName="localRestaurantSellingDish" jsonName="localRestaurantSellingDishJson" xmlDataType="" jsonDataType="">
+            <element xmlName="restaurantName" jsonName="restaurantJson" xmlDataType="String" jsonDataType="String"/>
+            <object xmlName="address" jsonName="addressJson" xmlDataType="" jsonDataType="">
+                <element xmlName="addressLine1" jsonName="addressLine1Json" xmlDataType="String" jsonDataType="String"/>
+                <element xmlName="addressState" jsonName="addressStateJson" xmlDataType="String" jsonDataType="String"/>
+            </object>
+        </array>
+    </array>
+</root>
